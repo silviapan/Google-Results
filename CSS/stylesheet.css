@@ -1,0 +1,109 @@
+body {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+li {
+	display: inline;
+}
+
+span {
+	color: #777;
+}
+
+/*=================================================
+Header
+===================================================*/
+.header {
+	position: relative;
+	height: 50px;
+	width: 100%;
+	background-color: #eee;
+	top: 0;
+	border-bottom: 1px solid #ccc;
+}
+
+#logo {
+	float: left;
+	height: 30px;
+}
+
+#search {
+	float: left;
+}
+
+input[type="text"] {
+	width: 580px;
+	height: 35px;
+	border: 1px solid #ccc;
+	font: 16px arial,sans-serif;
+	padding-left: 10px;
+}
+
+input[type="submit"] {
+	background-color: #4285F4;
+	border: 1px #4285F4;;
+}
+
+.apps_signin {
+	position: relative;
+	float: right;
+}
+
+#grid {
+
+}
+
+#signin {
+	background-color: #4285F4;
+	padding: 7px 10px 7px 10px;
+}
+
+#signin a {
+	color: #fff;
+	font: 13px arial,sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/*=================================================
+Options
+===================================================*/
+
+.options {
+	position: relative;
+	height: 60px;
+	border-bottom: 1px solid #eee;
+}
+
+/*=================================================
+Search Results
+===================================================*/
+.results {
+	position: relative;
+	width: 500px;
+}
+
+/*=================================================
+Related Searches
+===================================================*/
+.related {
+	width: 500px;
+}
+
+
+/*=================================================
+Footer
+===================================================*/
+.footer {
+	position: absolute;
+	height: 80px;
+	width: 100%;
+	background-color: #eee;
+	bottom: 0;
+}
