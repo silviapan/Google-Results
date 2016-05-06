@@ -1,3 +1,3 @@
 # Google Results
 
-Project: Recreate Google Results page
+Project: Clone Google Results page

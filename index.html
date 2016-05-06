@@ -12,11 +12,11 @@
 	<!--Header: Logo, Search, Apps, Sign in-->
 	<div class="header">
 
-		<img id="logo" src="Images/googlelogo.png"/>
+		<img id="logo" src="Images/google_logo.png" height="30px"/>
 
 		<form id="search">
-			<input id="searchField" type="text" value="build this webpage"></input>
-			<input id="searchSbumit" type="submit" value=""></input>
+			<input type="text" value="build this webpage"></input>
+			<input type="image" value="Search" src="Images/mag_glass.png">
 		</form>
 
 		<ul class="apps_signin">
@@ -29,80 +29,90 @@
 	<!--Search Options-->
 	<div class="options">
 		<ul>
-			<li><a href="#">All</a></li>
+			<li id="menu_highlight"><a href="#">All</a></li>
 			<li><a href="#">Videos</a></li>
 			<li><a href="#">News</a></li>
 			<li><a href="#">Shopping</a></li>
 			<li><a href="#">Images</a></li>
-			<li><a href="#">More</a></li>
-			<li><a href="#">Search tools</a></li>
+			<li><a href="#">More <div class="arrow_down"></div></a></li>
+			<li id="tools"><a href="#">Search tools</a></li>
+			<li id="gear"><a href="#"><img src="Images/gear.png" height="20px" /></a></li>
 		</ul>
+
 	</div>
 
 	<!--Search Results-->
-	<span>About 2,490,000 results (0.33 seconds)</span>
-
 	<div class="results">
+		<span>About 2,490,000 results (0.33 seconds)</span>
 		<ul>
 			<li id="result1">
 				<a href="#">With zero coding experience, artist building 180 webpages ...</a>
-				<h6>arstechnica.com/.../with-zero-coding-experience-artist-build...</h6>
+				<br><cite>arstechnica.com/.../with-zero-coding-experience-artist-build...</cite>
+				<a href="#"><div class="arrow_link"></div></a>
+				<a id="site_blurb" href="#">Ars Technica <div class="arrow_blurb"></div></a>
 				<p><span>Jul 26, 2013 - </span>One of Jennifer Dewalt's creations, this webpage lets visitors create paintings in ... Build a different website every day for 180 consecutive days.</p>
 			</li>
 
 			<li id="result2">
 				<a href="#">Watch this webpage code itself. : InternetIsBeautiful - Reddit</a>
-				<h6>https://www.reddit.com/r/.../comments/.../watch_this_webpage_code_itse...</h6>
+				<cite>https://www.reddit.com/r/.../comments/.../watch_this_webpage_code_itse...</cite>
+				<a href="#"><div class="arrow_link"></div></a>
 				<p><span>Apr 1, 2015 - </span>Medal of BeautyWatch this webpage code itself. (codepen.io). submitted 1 year ago by fyrie · 58 comments; share. loading... all 58 comments.</p>
 			</li>
 
 
 			<li id="result3">
 				<a href="#">I'm learning to code by building 180 websites in 180 days.</a>
-				<h6>blog.jenniferdewalt.com/.../im-learning-to-code-by-building-180-websit...</h6>
+				<cite>blog.jenniferdewalt.com/.../im-learning-to-code-by-building-180-websit...</cite>
+				<a href="#"><div class="arrow_link"></div></a>
 				<p><span>Jul 24, 2013 - </span>Build a different website every day for 180 consecutive days. Every website must be accompanied by a blog post. Any code I write must be ...</p>
 			</li>
 
 			<li id="result4">
 				<a href="#">Build Your Own Webpage | Codecademy</a>
-				<h6>https://www.codecademy.com/.../web-beginner-en-LceTK</h6>
+				<br><cite>https://www.codecademy.com/.../web-beginner-en-LceTK</cite>
+				<a href="#"><div class="arrow_link"></div></a>
+				<a id="site_blurb" href="#">Codecademy <div class="arrow_blurb"></div></a>
 				<p>Before we ask you to write a bunch of code, we think it's helpful for you to see exactly what you'll be making in this project. Check out the index.html file and the ...</p>
 			</li>
 
 			<li id="result5">
 				<a href="#">How to Make a Website - Step-by-Step Guide for Beginners</a>
-				<h6>websitesetup.org/</h6>
+				<cite>websitesetup.org/</cite>
+				<a href="#"><div class="arrow_link"></div></a>
 				<p>Learn how to make a website and set it up. This site contains different tutorials on how to build a website using WordPress, Joomla, Drupal & HTML.</p>
 			</li>
 
 			<li id="result6">
 				<a href="#">How Do We Know They Need This Webpage? | Inc.com</a>
-				<h6>www.inc.com/the-build.../how-do-we-know-they-need-this-webpage.ht...</h6>
+				<br><cite>www.inc.com/the-build.../how-do-we-know-they-need-this-webpage.ht...</cite>
+				<a id="site_blurb" href="#">Inc. <div class="arrow_blurb"></div></a>
 				<p><span>Aug 2, 2013 - </span>During a recent visit to HubSpot's headquarters, members of the Build team got to see the remnants of one of the inbound marketing firm's ...</p>
 			</li>
 
 			<li id="result7">
 				<a href="#">How to Build a Website | You Don't Have To Be A Tech Geek</a>
-				<h6>www.websitebuilderexpert.com › Website Design</h6>
+				<cite>www.websitebuilderexpert.com > Website Design</cite>
 				<p><span>Mar 7, 2016 - </span>You're not alone as for most people, building a website online is still a bit of a mystery. For most people (including us a few years ago), creating ...</p>
 			</li>
 
 			<li id="result8">
-				<a href="#">How to Build a WordPress Website 2016 – New and ...</a>
-				<h6>www.nyctechclub.com/how-to-build-a-wordpress-website-2016-updated/</h6>
+				<a href="#">How to Build a WordPress Website 2016 - New and ...</a>
+				<cite>www.nyctechclub.com/how-to-build-a-wordpress-website-2016-updated/</cite>
+				<a href="#"><div class="arrow_link"></div></a>
 				<p><span>date</span>This is the latest and greatest website tutorial I have created on how to make a wordpress website. It uses a free wordpress theme and I show you how to build ...</p>
 			</li>
 
 			<li id="result9">
-				<a href="#">Wild Cities - Page 27 - Google Books Result</a>
-				<h6>https://books.google.com/books?isbn=1433383136</h6>
-				<p><a href="#">Timothy J. Bradley</a><span> - 2012 - Juvenile Fiction</span>
-				<p>Animal Architects: How Mammals Build Their Amazing Homes. ... Eið Rids http://www.biokids.umich.edu/guides tracks and sign/build This webpage provides ...</p>
+				<a href="#">Cost To Build A Website | Our Story, Trials & Experiences</a>
+				<cite>www.websitebuilderexpert.com > Website Design</cite>
+				<p><span>Mar 7, 2016 - </span>The "real" cost to build a website was a complete mystery to us at the very beginning. Would it be $500? $1,000? $5,000? Or heavens forbid ...</p>
 			</li>
 
 			<li id="result10">
 				<a href="#">The Ultimate Guide To Building A Personal Website ...</a>
-				<h6>collegeinfogeek.com › Blog › Internet</h6>
+				<br><cite>collegeinfogeek.com > Blog > Internet</cite>
+				<a href="#"><div class="arrow_link"></div></a>
 				<p><span>Apr 13, 2016 - </span>Having a personal website is one of the most important things for building your brand. Let's learn how to make one in 5 steps.</p>
 			</li>
 		</ul>
@@ -134,14 +144,31 @@
 			</tr>
 		</table>
 	</div>
-	<!---Pages-->
 
+	<!---Pages-->
+	<div class="pages">
+		<img src="Images/pages_google.png"/>
+		<ul>
+			<li><a href="#">1</a></li>
+			<li><a href="#">2</a></li>	
+			<li><a href="#">3</a></li>
+			<li><a href="#">4</a></li>
+			<li><a href="#">5</a></li>
+			<li><a href="#">6</a></li>
+			<li><a href="#">7</a></li>
+			<li><a href="#">8</a></li>
+			<li><a href="#">9</a></li>
+			<li><a href="#">10</a></li>
+			<li><a href="#">Next</a></li>
+		</ul>
+	</div>
 
 	<!--Footer-->
 	<div class="footer">
 			<ul class="f_upper"> 
-				<li><span>New York, NY - From your Internet Address - </span></li>
-				<li><a href="#">Use Precise Location</a> - </li>
+				<li><div id="circle"></div></li>
+				<li id="location">New York, NY - From your Internet Address - </li>
+				<li><a href="#">Use Precise Location</a><span> - </span></li>
 				<li><a href="#">Learn more</a></li>
 			</ul>
 
