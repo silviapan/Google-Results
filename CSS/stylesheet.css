@@ -52,9 +52,10 @@ input[type="image"]{
 .apps_signin {
 	position: relative;
 	float: right;
+	margin-top: 15px;
 }
 
-#grid {line-height: 60px;}
+#grid {vertical-align: middle;}
 
 #signin {
 	background-color: #4285F4;
